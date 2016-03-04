@@ -4,12 +4,12 @@
 
 
 {% block content %}
-
-  <div class="container">
-
-    <h1>{{ title }}</h1>
-    <p>Welcome to {{ title }}</p>
-
-  </div>
-
+<div class="container">
+  <form>
+        <div class="form-group">
+          <input type="email" class="form-control" placeholder="Enter your email">
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+</div>
 {% endblock %}
