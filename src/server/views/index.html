@@ -5,9 +5,9 @@
 
 {% block content %}
 <div class="container">
-  <form>
+  <form action="/" method="POST">
         <div class="form-group">
-          <input type="email" class="form-control" placeholder="Enter your email">
+          <input type="email" class="form-control" name="email" placeholder="Enter your email" required>
         </div>
         <button type="submit" class="btn btn-success">Submit</button>
       </form>
